@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Masuk Login</title>
+	<script src="JS/logout.js"></script>
+	<script src="JS/otentikasi.js"></script>
+</head>
+
+<body>
+	<div class="input">
+	<h1>Kamu Berhasil Mendaftar</h1>
+	<form method="request">
+		<input type="submit" class="tombol_login" onClick="return logout()" value="LOGOUT">
+	</form>
+	<script>
+		function logout() {
+			var yakin = confirm("Apakah Kamu Yakin Ingin Selesai Mendaftar?");
+			if (yakin) {
+				document.write("Anda Berhasil Keluar");
+				window.location = "index.html";
+			} else {
+				document.write("Baiklah, Stay Here Please :)");
+				window.location = "home.html"
+			}
+		}
+	</script>
+	</div>
+</body>
+</html>

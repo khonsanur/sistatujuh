@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!--
+	Awesome Responsive Template
+	templatestock.co
+-->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SISTA | STT Nurul Fikri</title>
+  <link rel="shortcut icon" href="https://elen.nurulfikri.ac.id/theme/image.php/klass/theme/1602478393/favicon">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="css/animate.css">
+	
+</head>
+<body>
+<!-- Header -->
+<div class="header-div">
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header logo-div bounceInLeft wow" data-wow-duration="2s">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">SISTA-NF</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse top-right-menu-ul bounceInRight wow" id="bs-example-navbar-collapse-1" data-wow-duration="4s">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">|Home</a></li>
+        <li><a href="jadwal.html">|Jadwal</a></li>
+        <li><a href="berita.html">|Berita</a></li>
+        <li><a href="daftar_sTA.html">|Daftar Seminar</a></li>
+        <li><a href="about_us.html">|About Us</a></li>
+        <li><a href="hal6.html">Login Admin</a></li>
+      </ul>
+    </div><!-- End navbar-collapse -->
+
+  </div><!-- End container -->
+</nav>
+
+<div class="container wow bounceInDown" data-wow-duration="5s">
+	<div class="row">
+		<div class="col-md-offset-2 col-md-8 text-center slide-text">
+			<h1>SISTEM INFORMASI SEMINAR TUGAS AKHIR</h1>
+    </div><!-- End col-md-8-->
+    <div class="col-md-offset-2"></div><!-- End col-md-offset-2 -->
+  </div><!-- End Row -->
+</div><!-- End Contanier -->
+</div><!-- End header-div -->
+
+<div class="row">
+    <div class="col-md-17">
+      <div class="main_heading">
+        <div class="features-div">
+        <i class="fa fa-support"></i>
+        <h2>DAFTAR SEMINAR TA</h2>
+        <div  class="text-center"><span class="underline"></span></div>
+      </div>
+    </div><!-- End col-md-12 -->
+  </div><!-- End row -->
+</div>
+
+ <form action="Seminar.php" method="post">
+ 
+  <fieldset>
+    <legend>Form Daftar Seminar TA</legend>
+    <div class="form-row">
+    <div class="form-group col-md-6">
+    <h5 align="center" class="text-left">Pendaftaran Seminar berlaku untuk mahasiswa yang telah mendapat persetujuan dari Pembimbing TA</h5>
+    <br>
+     <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <form role="form">
+            <div class="form-group">
+              <label for="NIM :">
+                NIM :
+              </label>
+              <input type="name" class="form-control" id="NIM :" />
+            </div>
+      
+        <div class="form-group">
+           
+          <label for="Nama :">
+            Nama :
+          </label>
+          <input type="name" class="form-control" id="Nama :" />
+        </div>
+        <div class="form-group">
+           
+          <label for="Prodi">
+            Prodi :
+          </label>
+          <select class="form-control" id="Prodi">
+          <option>Pilih Prodi</option>
+          <option>Sistem Informasi</option>
+          <option>Teknik Informatika</option>
+          </select>
+        </div>
+        <div class="form-group">
+           
+          <label for="date">
+            Tanggal Seminar :
+          </label>
+          <input type="date" class="form-control" id="date" />
+        </div>
+        
+        <div class="form-group">
+           
+          <label for="time">
+            Jam Seminar :
+          </label>
+          <input type="time" class="form-control" id="time" />
+        </div>
+        <div class="form-group">
+           
+          <label for="room :">
+            Ruangan :
+          </label>
+          <input type="name" class="form-control" id="room" />
+        </div>
+      </form>
+    </div>
+    <div class="col-md-6">
+      <form role="form">
+        <div class="form-group">
+          <label for="Judul">Judul TA :</label> <br>
+            <textarea class="form-control" id="judul" cols="40" rows="5"></textarea> 
+        </div>
+        <div class="form-group">
+           
+          <label for="seminar">
+            Seminar :
+          </label>
+          <select class="form-control" id="seminar">
+          <option>Proposal</option>
+          <option>Tugas akhir</option>
+          </select>
+        </div>
+        <div class="form-group">
+           
+          <label for="pembimbing">
+            Pembimbing :
+          </label>
+          <select class="form-control" id="pembimbing">
+          <option>Sirojul Munir S.SI, M.KOM</option>
+          <option>Ahmad Rio M.SI</option>
+          <option>Amalia Rahmah M.T</option> 
+          </select>
+        </div>
+        <div class="form-group">
+           
+          <label for="penguji1">
+            Penguji 1 :
+          </label>
+          <select class="form-control" id="penguji1">
+          <option>Ahmad Rio M.SI</option>
+          <option>Amalia Rahmah M.T</option> 
+          <option>Sirojul Munir S.SI, M.KOM</option>
+          </select>
+        </div>
+        <div class="form-group">
+           
+          <label for="penguji2">
+            Penguji 2 :
+          </label>
+          <select class="form-control" id="penguji2">
+          <option>Amalia Rahmah M.T</option> 
+          <option>Sirojul Munir S.SI, M.KOM</option>
+          <option>Ahmad Rio M.SI</option>
+          </select>
+        </div>
+        <br>
+        <div class="form-group col-md-10">
+          <form method="request">
+            <input type="submit" class="btn btn-link-1 scroll-link" onClick="return logout()" value="SUBMIT">
+          </form>
+          <script>
+            function logout() {
+              var yakin = confirm("Submit data anda?");
+              if (yakin) {
+                window.location = "index.html";
+              } else {
+                alert("Ada kesalahan, mohon ulangi");
+              }
+            }
+          </script>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+      <div class="row">
+            <div class="col-sm-12 footer-social">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-dribbble"></i></span></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>             
+              <a href="#"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-google-plus"></i></a>
+              <a href="#"><i class="fa fa-pinterest"></i></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 footer-copyright">
+              © Developed by <a href="http://templatestock.co">Mahasiswa SI04 | 2020</a>
+            </div>
+        </div>
+    </div>
+</footer>
